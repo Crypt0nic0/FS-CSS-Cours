@@ -1,0 +1,23 @@
+/* Ceci est un commentaire */
+
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+@font-face {
+    font-family: 'font-1';
+    src: url('./assets/NotoSans-Medium.ttf');
+}
+
+body {
+    font-family: 'font-1', serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 2.5rem;
+    /* 1rem = 16px */
+    color: darkblue;
+    text-shadow: 5px 3px 0 #85dadab6;
+    text-align: center;
+    font-family: 'League Gothic', sans-serif;
+}
