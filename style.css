@@ -9,6 +9,7 @@
 
 body {
     font-family: 'font-1', serif;
+    background: url("./assets/bg.jpeg") no-repeat fixed left/cover;
 }
 
 h1 {
@@ -16,8 +17,42 @@ h1 {
     letter-spacing: 3px;
     font-size: 2.5rem;
     /* 1rem = 16px */
-    color: darkblue;
-    text-shadow: 5px 3px 0 #85dadab6;
+    color: rgb(0, 0, 0);
+    text-shadow: 5px 3px 0 #85daa6b6;
     text-align: center;
     font-family: 'League Gothic', sans-serif;
+}
+
+main {
+    background: whitesmoke;
+    width: 85%;
+    min-height: 500px;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 2px 12px 5px rgb(87, 111, 100);
+}
+
+.positioning {
+    border: 2px solid darkslategrey;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+h2 {
+    margin: 0;
+}
+
+#circle {
+    height: 60px;
+    width: 60px;
+    background: skyblue;
+    padding: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    right: 110px;
+    box-shadow: 0 2px 12px 5px rgba(51, 51, 51, 0.13);
 }
